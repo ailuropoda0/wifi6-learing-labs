@@ -1,56 +1,21 @@
 {
-  "labId": "sample-lab",
-  "title": "This is a sample lab.",
-  "slug": "This is sample slug",
-  "time": "5",
+  "labId": "learning-labs-howto",
+  "title": "How to create a DevNet Learning Lab",
+  "slug": "An introduction on how to create a Cisco DevNet Learning Lab",
+  "time": "30",
   "tags": [
-    {"title": "Sample"},
-    {"title": "Data Center"},
-    {"title": "SDN"},
-    {"title": "Mobile"}
+    {"title": "Beginner"},
+    {"title": "Coding"}
   ],
   "files": [
     {"title": "1.md"},
-    {"title": "2.md"}
-  ],
-  "poweredBy": "<a href=\"https://developer.cisco.com/site/devnet/sandbox/\" target=\"_blank\">DevNet Sandbox</a>",
-  "replaceAtRender": {
-  	"default": [
-  		{"http://link-1.com": "http://go-to-link-a.com"},
-  		{"{{port}}": "8080"},
-  		{"thisWord": "thatWord"},
-  		{"<img src=\"thisImg\" />": "<img src=\"thatImg\" />"},
-  		{"thisImg": "thatImg"}
-  	],
-  	"cssandiego": [
-  		{"http://link-1.com": "http://go-to-link-b.com"},
-  		{"{{port}}": "1000"},
-  		{"thisWord": "anotherWord"},
-  		{"/cisco/gi": "Cisco", "regex": true}
-  	]
-  },
-  "vms": {
-		"default": [
-  		{"leasing": "https://vms-server.com/api/lease"},
-  		{"releasing": "https://vms-server.com/api/release"}
-  	],
-  	"cssandiego": [
-  		{"leasing": "http://10.0.0.1/api/lease"},
-  		{"releasing": "http://10.0.0.1/api/release"}
-  	]
-  },
-  "related": [
-    {
-      "labId": "sample-lab-2",
-      "title": "Sample Lab 2 - Sample lab to link to"
-    },
-    {
-      "labId": "sample-lab-3",
-      "title": "Sample Lab 3 - Sample lab to link to"
-    }
+    {"title": "2.md"},
+    {"title": "3.md"},
+    {"title": "4.md"},
+    {"title": "5.md"}
   ],
   "authors": [
-  	{"name": "Thanh Duy T Ton", "email": "thaton@cisco.com"}
+  	{"name": "Adrian Iliesiu", "email": "ailiesiu@cisco.com"}
   ],
-  "active": false
+  "active": true
 }
