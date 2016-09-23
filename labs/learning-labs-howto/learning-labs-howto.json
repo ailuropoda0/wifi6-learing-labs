@@ -7,6 +7,7 @@
     {"title": "Beginner"},
     {"title": "Coding"}
   ],
+  "byod": true,
   "files": [
     {"title": "1.md"},
     {"title": "2.md"},
