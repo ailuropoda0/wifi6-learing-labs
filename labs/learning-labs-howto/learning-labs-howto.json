@@ -8,6 +8,20 @@
     {"title": "Coding"}
   ],
   "byod": true,
+  "related": [
+    {
+      "labId": "git-intro",
+      "title": "Git 100: Basics of the git version control system"
+    },
+    {
+      "labId": "git-branching",
+      "title": "Git 101: Branching"
+    },
+    {
+      "labId": "git-servers",
+      "title": "Git 102: Using git with servers"
+    }
+  ],
   "files": [
     {"title": "1.md"},
     {"title": "2.md"},
