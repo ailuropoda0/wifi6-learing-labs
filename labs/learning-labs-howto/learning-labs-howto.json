@@ -23,11 +23,16 @@
     }
   ],
   "files": [
-    {"title": "1.md"},
-    {"title": "2.md"},
-    {"title": "3.md"},
-    {"title": "4.md"},
-    {"title": "5.md"}
+    {"title": "What is a Learning Lab?",
+     "file": "1.md"},
+    {"title": "Getting Started",
+     "file": "2.md"},
+    {"title": "BYOD Information and Related Labs",
+     "file": "3.md"},
+    {"title": "Editing the sample-lab.json File",
+     "file": "4.md"},
+    {"title": "Code Examples and Video Files",
+     "file": "5.md"}
   ],
   "authors": [
   	{"name": "Adrian Iliesiu", "email": "ailiesiu@cisco.com"}
