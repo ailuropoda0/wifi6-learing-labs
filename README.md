@@ -1,47 +1,68 @@
-# How to contribute to a Learning Lab
+## Cisco DevNet Learning Labs: How To Learning Labs
 
-Guide on how to create a Cisco DevNet Learning Lab.
+These self-paced interactive tutorials provide instructions for developers to create your own Learning Labs.
 
-For Learning Labs, you can help in these primary ways:
- - Testing the Learning Lab and then reporting issues in the repo or in the comm
-on issues tracking repo
- - Using the Issue tracker to report issues or comment that you will work on an
-issue
- - Updating the content in the Learning Lab repo
- - Requesting or creating a release
- - Contacting DevNet to publish new or updated Learning Labs
+We write these labs for display within the [Cisco DevNet Learning Labs system](https://learninglabs.cisco.com).
 
-## Using the issue tracker
+Contributions are welcome, and we are glad to review changes through pull requests. See [contributing.md](contributing.md) for details.
 
-For Learning Labs, there are two potential places to track issues, depending on
-whether the repo is a public or private repo.
+Once approved, Cisco DevNet reviewers then create a release to publish through our Learning Labs system.
 
-For public repo Learning Labs, use the issue tracker in the repo. All Learning L
-abs repos in the CiscoDevNet organization have a topic of `learning-labs`.
+The goal of these learning labs is to ensure a 'hands-on' learning approach rather than theory or instructions.
 
-For private Learning Labs, use the common issue tracker in the [CiscoDevNet/lear
-ning-labs-issues](https://github.com/CiscoDevNet/learning-labs-issues) repo.
+## About these Learning Labs
 
-For DevNet Express events, use these three issue tracker repos based on the cont
-ent track:
-* https://github.com/CiscoDevNet/devnet-express-dna-issues
-* https://github.com/CiscoDevNet/devnet-express-cc-issues
-* https://github.com/CiscoDevNet/devnet-express-dci-issues
+These labs teach how to:
+* Know what a Cisco DevNet Learning Lab is, and what it covers.
+* Create, format, and organize a Learning Lab.
 
-Use the issue tracker to suggest additions, report bugs, and ask questions.
-This is also a great way to connect with the developers of the project and find others interested in this solution.
+If you need more help, you can reach out to DevNet through one of our [support options](https://developer.cisco.com/site/devnet/support/).
 
-Also use the issue tracker to find ways to contribute. Test a lab, find a bug,
-log an issue, or offer an update, comment on the issue that you will take on
-that effort, then follow the _Changing the Learning Lab content_ guidance below.
+## Preview Learning Lab Markdown locally
 
-## Changing the Learning Lab content
+You can preview how the Markdown renders by using a pre-built Docker image. The `Makefile` in the root of the repository lets you run `make preview` to view the output HTML.
 
-Generally speaking, you should fork the Learning Lab repository, make changes in
-your fork, and then submit a pull request (PR). We expect you have validated that all documented tasks work as expected. Plus, the content
-should follow the [Learning Lab Style Guide](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/Lab-Style-Guide).
+1. Make sure you have Docker installed locally. If not, [install Docker](https://docs.docker.com/install/) for your operating system.
+   ```
+   $ docker -v
+   ```
+1. In the root of the repository, run:
+   ```
+   $ make preview
+   ```
+1. Open a browser window with the URL: `http://localhost:9000`.
+1. Click a folder to find the Markdown file you want to preview.
+1. When you are done previewing, type `Ctrl+C` to stop running the Docker container.
 
-The [DevNet Writing Guidelines Wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki)
-describes the review and publishing process in detail.
+## Contributor guidelines
 
-Please feel free to request reviews from DevNet contributors you see in the repository and we will review submissions.
+These learning modules are for public consumption, so you must ensure that you have the rights to any content that you contribute.
+
+Write your content in Markdown. DevNet staff reviews content according to the [Cisco Style Guide](http://www-author.cisco.com/c/en/us/td/docs/general/style/guide/Latest/stylegd.html). (Link available on Cisco VPN only.)
+
+#### Publishing requirements
+
+To create and publish a new lab, take the following steps:
+- Add a new folder under `labs`.
+- Create a JSON file with the same name as the `labs/`_folder_ name.
+- Create markdown files named 1.md, 2.md, and so on; refer to those files in the `labs/`_folder_ JSON file.
+- Ensure that the JSON file contains appropriate page titles and file references.
+- Send a pull request to get the files committed and merged to `master` by a DevNet reviewer.
+
+A DevNet reviewer then creates a release on the repository with the latest `master` and publishes through the admin interface.
+
+#### Editors
+
+You can write Markdown in a plain text editor, and desktop and Web-based options allow you to simultaneously write and preview your work. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for these reasons:
+- Lightweight environment for coding (or writing Markdown).
+- Available on macOS, Linux, or Windows.
+- Github Client integration.
+- Great Markdown preview features native in the editor.
+- Intuitive operation and structure.
+
+You can validate a JSON file by using the [online formatter and validator](https://jsonformatter.curiousconcept.com).
+
+## Getting involved
+
+* If you'd like to contribute to an existing lab, refer to [contributing.md](contributing.md).
+* If you're interested in creating a new Cisco DevNet Learning Lab, please contact a DevNet administrator for guidance.
