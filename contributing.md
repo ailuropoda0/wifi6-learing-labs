@@ -8,7 +8,6 @@ For Learning Labs, you can help in these primary ways:
 - Requesting or creating a release.
 - Contacting DevNet to publish new or updated Learning Labs.
 
-
 ## Using the issue tracker
 
 For Learning Labs, there are two potential places to track issues, depending on whether the repo is public or private.
@@ -26,7 +25,6 @@ For DevNet Express events, use these three issue tracker repos based on the cont
 Use the issue tracker to suggest additions, report bugs, and ask questions. This is also a great way to connect with the developers of the project and find others interested in this solution.
 
 Also use the issue tracker to find ways to contribute. Test a lab, find a bug, log an issue. Or offer an update, comment on the issue that you will take on that effort, then follow the ``Changing the Learning Lab`` content guidance below.
-
 
 ## Changing the Learning Lab content
 
