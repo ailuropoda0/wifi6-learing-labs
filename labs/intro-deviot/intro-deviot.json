@@ -1,0 +1,26 @@
+{
+  "labId": "intro-deviot",
+  "title": "Introduction to DevIoT",
+  "slug": "Getting started with DevIoT",
+  "time": "15",
+  "tags": [
+    {"title" : "DevIoT"},
+    {"title" : "IoT"}
+  ],
+  "files": [
+    {"title": "Introduction", "file": "1-intro.md"},
+    {"title": "Go through DevIoT", "file": "2-go-through.md"},
+    {"title": "Create a new project", "file": "3-create-project.md"},
+    {"title": "Build your first Hello World program", "file": "4-build-program.md"}
+  ],
+  "related": [
+    {
+      "labId": "mobile-deviot",
+      "title": "Connect Mobile devices to DevIoT"
+    }
+  ],
+  "authors": [
+    {"name": "Changjun Lim", "email": "chanlim@cisco.com"}
+  ],
+  "active": true
+}
