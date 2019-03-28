@@ -19,15 +19,15 @@ If you click 'library' tab, you can see the list of libraries you can use.
 
 Every component can be grouped into 'input' and 'output'. 'Input' is the component sending data to 'fog' according to its state. 'Output' is the one receiving from 'fog'. For instance, a temperature sensor is 'input' sending temperature data to DevIoT, and a LED is 'output' lighting on/off by the data from DevIoT.
 
-#### FOG
+### FOG
 * **Rules Engine**: An only component in FOG. It determines the logic of your program. There is no priority between rules in Rules Engine. It utilizes [Cisco® Data in Motion](https://developer.cisco.com/site/data-in-motion/).
 
 
-#### SERVICE
+### SERVICE
 * **Cisco Webex Teams** (Output): You can send your message to a specific chat room in Webex Teams
 * **Webex Teams Trigger** (Input): It detects the message to DevIoT bot with the user-speific token.
 
-#### TOOL
+### TOOL
 * **Button** (Input): It works as a virtual button. It sends a value(0/1) depending on its state(released/pressed).
 * **Timer** (Input): It sends 1 on every specified time.
 * **Traffic Light** (Output): It works as a virtual traffic light. It has three kinds of light: green, yellow, red.

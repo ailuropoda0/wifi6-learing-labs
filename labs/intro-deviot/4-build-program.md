@@ -3,24 +3,24 @@ Let's make your first program in DevIoT! It is o You need an only mouse to make 
 
 In this section, you will build a simple program that a traffic light turns the green light on by pressing a button and the red light on the traffic light is turned on by releasing the button. Let's start from **Flow View** in your **workspace** page and follow these 5 steps. 
 
-**1. Click the 'Catalog' button**
+### 1. Click the 'Catalog' button
 ![Figure](assets/images/4-1-catalog.png)
 
-**2. Drag-and-Drop 'Rules Engine' in FOG, and 'Button' nand 'TrafficLight' in TOOL from the catalog tab**
+### 2. Drag-and-Drop 'Rules Engine' in FOG, and 'Button' nand 'TrafficLight' in TOOL from the catalog tab
 ![Figure](assets/images/4-2-drag-and-drop.png)
 * The project should have at least one 'Rules Engine' component determining the logic.
 
-**3. Click the 'Rules Engine' and set the logic**
+### 3. Click the 'Rules Engine' and set the logic
 ![Figure](assets/images/4-3-rules-engine.png)
 1. Set source(SRC) as 'Button 1', value as 'released', target as 'TrafficLight 1', and action as 'greenOn'.
 2. Set same source and target with 1, and value as 'pressed' and action as 'redOn'.  
 * There is no priority between rules, so you should be careful not to set inconsistent rules.
 
-**4. Activate your project by clicking the switch on the horizontal bar**
+### 4. Activate your project by clicking the switch on the horizontal bar
 ![Figure](assets/images/4-4-activate.png)
 * If the project is not activated, the program does not work at all.
 
-**5. Test your program**
+### 5. Test your program
 ![Figure](assets/images/4-5-test.png)
 1. See whether the color of the button is the same as that of the traffic light. A released button is green and a pressed button is red.
 
