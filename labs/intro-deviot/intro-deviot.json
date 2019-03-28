@@ -3,6 +3,7 @@
   "title": "Introduction to DevIoT",
   "slug": "Getting started with DevIoT",
   "time": "15",
+  "byod": false,
   "tags": [
     {"title" : "DevIoT"},
     {"title" : "IoT"}
