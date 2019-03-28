@@ -3,7 +3,7 @@
     "title": "Connect Mobile device to DevIoT",
     "slug": "Getting started with DevIoT",
     "time": "10",
-    "byod": false,
+    "byod": true,
     "tags": [
       {"title" : "DevIoT"},
       {"title" : "IoT"}
