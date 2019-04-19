@@ -1,0 +1,28 @@
+{
+  "labId": "wifi6-learning-labs",
+  "title": "Introduction to Wi-Fi 6",
+  "slug": "An introduction on the features and possibility of Wi-Fi 6",
+  "time": "30",
+  "tags": [
+    {"title": "Wi-Fi"},
+    {"title": "Wi-Fi 6"}
+  ],
+  "byod": true,
+  "related": [],
+  "files": [
+    {"title": "What is Wi-Fi 6?",
+     "file": "1-intro.md"},
+    {"title": "The new features in Wi-Fi 6 (1)",
+     "file": "2-feature1.md"},
+    {"title": "The new features in Wi-Fi 6 (2)",
+     "file": "3-feature2.md"},
+    {"title": "",
+     "file": "4-impact.md"},
+    {"title": "",
+     "file": "5-developer.md"}
+  ],
+  "authors": [
+  	{"name": "Changjun Lim", "email": "chanlim@cisco.com"}
+  ],
+  "active": true
+}

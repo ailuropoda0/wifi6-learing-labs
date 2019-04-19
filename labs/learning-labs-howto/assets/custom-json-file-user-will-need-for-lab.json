@@ -1,7 +1,0 @@
-{
-	"_comment": "Sample postman setup",
-	"postman": {
-		"header-authorization": "Bearer ABCDEFGHIJKLMNOPQRSTUVXYZ",
-		"content-type": "application/json"
-	}
-}
