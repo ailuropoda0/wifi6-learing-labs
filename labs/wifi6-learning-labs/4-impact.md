@@ -9,12 +9,24 @@ Wi-Fi 6 takes its strenth on especially high-density environments. With OFDMA, i
 ![](assets/images/4-2-capacity.png)
 
 #### low-power device
-Wi-Fi 6 has many features to save energy usage like TWT, BSS Coloring. This can save energy usage in IoT devices which have limited battery and computation resource.
+Wi-Fi 6 has many features to save energy usage like TWT, BSS Coloring. It is critical for the IoT devices which have limited battery to reduce energy usage. Normal wireless devices as well as low-power devices get benefit from it.
 
 #### range
-Wi-Fi 6 delivers longer range than previous versions as the below graph.
-Clients can have the same quality connection at a longer distance.
+Wi-Fi 6 delivers longer range than previous versions like the below graph. Multiple GI(Guard Interval) gives Wi-Fi 6 the chance to optimize. Longer GI is good for outdoor. And narrower subcarrier bandwidth or DCM reduces inference. The increased reliability make sure that clients can have the same quality connection at a longer distance.
 ![range](assets/images/4-3-range.png)
 
 #### compatibility
 You don't need to worry about compatibility. A Wi-Fi 6 device must support all modes of Wi-Fi. A Wi-Fi 6 access point can also communicate with the previous version of Wi-Fi devices. So Wi-Fi 6 can co-exist with the previous versions rather than changing existing devices. But the prior version of devices can't take the advantages of Wi-Fi 6.
+
+## Industrial Impact
+#### IoT space
+Wi-Fi 6 supports low-power mode and deterministic wireless service(which guarantees bounded latency), for which IoT devices have a need. With scalibility and ease of management, Wi-Fi has been selected as the indoor IoT platform. In the below graph, the usages of RFID tag, Bluetooth and Wi-Fi(red graph) are predicted to be rapidly increasing.
+
+![IoT](assets/images/4-4-IoT.png)
+
+#### Real-time applicatin like 4K/8K video and AR/VR
+As real-time applications like 4K/8K video service, AR(Augmented Reality) or VR(Virtual Realtiy) require significant throughput and low latency, Wi-Fi 6 is designed to satisfy such demand even in a dense area. Wi-Fi 6 will promote real-time applications to create new kind of experience.
+
+#### mobile data offloading
+![offload](assets/images/4-5-offload.png)
+The above graph is the trend of mobile data offloading. Each generation of cellular network(2G, 3G, and 4G) has offloaded large ratio of traffic into Wi-Fi network because of its speeds and economics. This will also continue in the new cellular technology 5G. Wi-Fi 6 will support 5G in voice and video services with its reliable and high-capability service.

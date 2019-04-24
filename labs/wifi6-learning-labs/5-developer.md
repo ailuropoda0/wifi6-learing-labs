@@ -3,7 +3,10 @@
 ## What developers can do in WiFi 6 network
 
 #### TWT(Target-Wakeup Time)
-As explained on page 3, the device can control the time to pause the Wi-Fi connection by setting TWT. Since TWT is programmable, developers can program their apps to control the time to transmit data on Wi-Fi 6. You should be careful of the tradeoff of battery efficiency versus traffic efficiency.
+As explained on page 3, the device can control the time to pause the Wi-Fi connection by setting TWT. Since TWT is programmable, developers can program their apps to control the time to transmit data on Wi-Fi 6. You should be careful of the tradeoff between battery efficiency and traffic efficiency.
+
+#### Controling traffic
+OFDMA supports dynamic allocation of subcarriers and DCM. So the traffic by clients can be regulated by its priority or reliability. For example, The critical traffic like fire alarm can be tranmitted by using DCM to prevent the inference or loss.
 
 ## Types of apps which benefits from WiFi 6
 #### VR/AR, streaming service
@@ -11,8 +14,6 @@ Wi-Fi 6 achieves great throughput(>1Gps) and low latency( < 10 ms). This enables
 
 #### low-power apps
 Wi-Fi 6 provides energy saving via TWT and BSS Coloring. Developers can control battery efficiency by controlling TWT. This is especially effective for the app for low-battery IoT devices.
-
-
 
 
 # Conclusion
