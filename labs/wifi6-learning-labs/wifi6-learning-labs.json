@@ -22,7 +22,8 @@
      "file": "5-developer.md"}
   ],
   "authors": [
-  	{"name": "Changjun Lim", "email": "chanlim@cisco.com"}
+    {"name": "Changjun Lim", "email": "chanlim@cisco.com"},
+    {"name": "Jerome Henry", "email": "jerhenry@cisco.com"}
   ],
   "active": true
 }
