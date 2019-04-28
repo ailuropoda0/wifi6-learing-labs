@@ -6,7 +6,7 @@ Wi-Fi 6 provides a maximum speed of 4.8Gbps on an 80 MHz channel using 8×8 MIMO
 #### high density
 Wi-Fi 6 shows its strength especially in high-density environments. With OFDMA, it can efficiently allocate the bandwidth resource to multi-users. As a result, it shows consistent throughput and low latency for each user, even when the number of users per AP increases, unlike the prior versions as you can see in the below graph.
 
-![](assets/images/4-2-capacity.png)
+![capacity](assets/images/4-2-capacity.png)
 
 #### low-power device
 Wi-Fi 6 has many features to save energy usage like TWT or DCM. It is critical for the IoT devices which have limited battery. Normal wireless devices as well as low-power devices get benefit from it.
