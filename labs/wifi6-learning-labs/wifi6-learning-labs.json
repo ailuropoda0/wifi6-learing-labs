@@ -7,8 +7,6 @@
     {"title": "Wi-Fi"},
     {"title": "Wi-Fi 6"}
   ],
-  "byod": true,
-  "related": [],
   "files": [
     {"title": "What is Wi-Fi 6?",
      "file": "1-intro.md"},
