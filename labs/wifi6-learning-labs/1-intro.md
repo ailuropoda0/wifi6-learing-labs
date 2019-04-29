@@ -1,6 +1,6 @@
-# Introduction to WiFi 6
+# Introduction to Wi-Fi 6
 ## Objective
-- Learn what feature makes Wi-Fi 6 powerful
+- Learn what features make Wi-Fi 6 powerful
 - Understand how Wi-Fi 6 will affect the industry and business
 - Understand what developers and engineers should know about Wi-Fi 6
 
