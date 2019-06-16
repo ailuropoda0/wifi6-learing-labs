@@ -15,13 +15,13 @@ OFDMA feature brings many advantages to Wi-Fi 6. In a high-density environment, 
 
 
 ## Improving capacity
-It is a challenge to overcome the interference in an environment where users share the same channel in the same physical space. This happens in the mobile environment in a large place sharing APs. A client should decide which AP it will connect to, among several APs to choose from. An AP and its clients represent a BSS (Basic Service Set). When two neighboring APs are on the same channels, clients between these APs hear the traffic from two overlapping BSSes (OBSS). This can cause OBSS interference.
+It is a challenge to overcome interference in an environment where users share the same channel in the same physical space. This happens in the mobile environment in a large place sharing APs. A client should decide which AP it will connect to, among several APs to choose from. An AP and its clients represent a BSS (Basic Service Set). When two neighboring APs are on the same channels, clients between these APs hear the traffic from two overlapping BSSes (OBSS). This can cause OBSS interference.
 
-To limit this issue, Wi-Fi 6 introduces BSS(Basic Service Set) Coloring. BSS coloring is the way to differentiate BSS in the same channel by BSS number(color) in the PHY header. So clients can ignore the traffic that show the ‘other’ color.
+To limit this issue, Wi-Fi 6 introduces BSS(Basic Service Set) Coloring. BSS coloring is the way to differentiate BSS in the same channel by BSS number(color) in the PHY header. So clients can ignore the traffic showing the ‘other’ color.
 
 
 ## Flexible low-power device scheduling
-This section is not directly related to airtime efficiency, but about a power-saving mode. The prior versions of Wi-Fi has power saving modes like Unscheduled Automatic Power Save Delivery (U-APSD). U-APSD allows a client to sleep and conserve battery. But a client does not know when the AP has broadcast traffic of interest. SO the client should wake up periodically to hear the AP beacons generally at multiples of 102.4 ms intervals. This periodic listening to beacons restricts potential energy-saving.
+This section is not directly related to airtime efficiency, but about a power-saving mode. The prior versions of Wi-Fi have power saving modes like Unscheduled Automatic Power Save Delivery (U-APSD). U-APSD allows a client to sleep and conserve battery. But a client does not know when the AP has broadcast traffic of interest. SO the client should wake up periodically to hear the AP beacons generally at multiples of 102.4 ms intervals. This periodic listening to beacons restricts potential energy-saving.
 
 So Wi-Fi 6 introduces the new power-savings mode called **Target-Wakeup Time (TWT)**. A device or a station(STA) can schedule any length of sleeping time up to 5 years. This will help many small IoT devices to save their energy.
 
