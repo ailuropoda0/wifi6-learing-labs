@@ -15,9 +15,13 @@ OFDMA feature brings many advantages to Wi-Fi 6. In a high-density environment, 
 
 
 ## Improving capacity
-It is a challenge to overcome interference in an environment where users share the same channel in the same physical space. This happens in a mobile environment in a large place sharing APs. A client device should decide which AP it will connect to, among several APs to choose from. An AP and its clients represent a BSS (Basic Service Set). When two neighboring APs are on the same channels, clients between these APs hear the traffic from two overlapping BSSes (OBSS). This can cause OBSS interference.
+It is a challenge to overcome interference in an environment where users share the same channel in the same physical space. This easily happens in a mobile environment in a large place sharing APs. And if there is channel bonding, the more APs share the same channel.
 
-To limit this issue, Wi-Fi 6 introduces **BSS Coloring**. BSS coloring is the way to differentiate BSS in the same channel by adding BSS number (color) in the PHY header. So clients can ignore the traffic showing ‘other’ colors.
+In this situation, each client device should decide which AP it will connect to, among several APs to choose from. An AP and its clients represent a BSS (Basic Service Set). When two neighboring APs are on the same channels, clients between these APs hear the traffic from two overlapping BSSes (OBSS). This can cause OBSS interference.
+
+![comparision](assets/images/3-2-BSS.png)
+
+To limit this issue, Wi-Fi 6 introduces **BSS Coloring**. BSS coloring is the way to differentiate BSS in the same channel by adding BSS number (color) in the PHY header. So clients can ignore the traffic showing ‘other’ colors and only focus on the traffic with the same color.
 
 
 ## Flexible low-power device scheduling

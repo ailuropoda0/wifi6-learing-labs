@@ -31,9 +31,11 @@ The change of modulation scheme improves the speed nearly 40%, but there is alwa
 ## Spatial Streams
 ![MIMO](assets/images/2-3-MIMO.png)
 
-Wi-Fi uses MU-MIMO(Multi-User Multiple Input Multiple Output) technology to connect multiple clients(devices) simultaneously. MIMO is the technology to transmit signals through multiple spatial streams by using multiple antennae. Single-user MIMO(SU-MIMO) sends multiple streams of data simultaneously to a single station with MIMO, while MU-MIMO sends individual streams of data to separate users simultaneously. MIMO is enabled by techniques like beamforming and space-time coding.
+Wi-Fi uses **MU-MIMO** (Multi-User Multiple Input Multiple Output) technology to connect multiple clients (devices) simultaneously. MIMO is the technology to transmit signals through multiple spatial streams by using multiple antennae. Single-user MIMO (SU-MIMO) sends multiple streams of data simultaneously to a single station with MIMO, while MU-MIMO sends individual streams of data to separate users simultaneously. MIMO is enabled by techniques like beamforming and space-time coding.
 
 Wi-Fi 6 supports 8x8 MU-MIMO, which means it can transmit and receive 8 streams of data concurrently. So 8 clients can be connected concurrently or 8 times faster connection can be achieved to a single user. To secure enough spatial streams, clients should be apart from each other which is hard to achieve in a high-density area.
 
 ## Channel Bonding
-The bandwidth of a channel is proportional to the number of subcarriers in a channel. So if the bandwidth of a channel increases or two channels are bonded into a new channel, the wireless speed in a channel increases. Wi-Fi 6 provides 160MHz (two 80 MHz channels, or eight 20 MHz channels bonded together)channel bandwidth like Wi-Fi 5. However, channel bonding reduces the number of available channels due to the limited frequency range. It may cause interference with other APs in the environment sharing multiple APs like an office. This problem is helped by BSS coloring, explained in the next page.
+The bandwidth of a channel is proportional to the number of subcarriers in a channel. So if the bandwidth of a channel increases or two channels are bonded into a new channel, the wireless speed in a channel increases. Wi-Fi 6 provides 160MHz (two 80 MHz channels, or eight 20 MHz channels bonded together) channel bandwidth like Wi-Fi 5. However, channel bonding reduces the number of available channels due to the limited frequency range. It may cause interference with other APs with the same chnnel in the environment sharing multiple APs like an office. This problem is helped by BSS coloring, explained in the next page.
+
+![channel](assets/images/2-4-channel.png)
